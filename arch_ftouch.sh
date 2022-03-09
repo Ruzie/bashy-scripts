@@ -5,4 +5,4 @@ if [! yay --version || ! pacman --version ]; then
 	echo "yay or pacman wasn't found, please install it manually."
 fi
 
-sudo -- sh -c 'pacman -Syu && pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra'
+sudo -- sh -c 'pacman -Syu && pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra && pacman -Rs firefox
