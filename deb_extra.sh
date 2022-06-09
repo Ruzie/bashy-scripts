@@ -9,7 +9,7 @@ fi
 	# Clean and install all mentioned programs
 	apt clean && apt autoclean
 	apt update && apt upgrade -y
-	apt install neofetch git mpv libgconf-2-4 libc++1 libsdl2-dev libsdl2-image-dev micro wget xclip gimp zip unzip gzip hexchat htop ffmpeg nasm net-tools passwd apt-transport-https gpg -y 
+	apt install neofetch git mpv libgconf-2-4 libc++1 libsdl1.2debian libsdl2-dev libsdl2-image-dev micro wget xclip gimp zip unzip gzip hexchat htop ffmpeg nasm net-tools passwd apt-transport-https gpg -y 
 
 	# Clone nvm git repository
 	git clone https://github.com/nvm-sh/nvm.git /tmp/nvm 
