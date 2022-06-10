@@ -13,7 +13,7 @@ extract() {
 apt_job() {
 	apt clean && apt autoclean > /dev/null
 	apt update && apt upgrade -y
-	apt install neofetch git mpv libgconf-2-4 libc++1 libsdl1.2debian libsdl2-dev libsdl2-image-dev micro wget xclip gimp zip unzip gzip hexchat htop ffmpeg nasm net-tools passwd -y
+	apt install neofetch git mpv libgconf-2-4 libc++1 libsdl1.2debian libsdl2-dev libsdl2-image-dev micro curl wget xclip gimp zip unzip gzip hexchat htop ffmpeg nasm net-tools passwd -y
 }
 
 install_vscode() {
